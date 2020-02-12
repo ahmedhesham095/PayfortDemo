@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04929C5623F3018600A77E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04929C5523F3018600A77E34 /* AppDelegate.swift */; };
+		04929C5823F3018600A77E34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04929C5723F3018600A77E34 /* SceneDelegate.swift */; };
+		04929C5A23F3018600A77E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04929C5923F3018600A77E34 /* ViewController.swift */; };
+		04929C5D23F3018600A77E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04929C5B23F3018600A77E34 /* Main.storyboard */; };
+		04929C5F23F3018900A77E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04929C5E23F3018900A77E34 /* Assets.xcassets */; };
+		04929C6223F3018900A77E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04929C6023F3018900A77E34 /* LaunchScreen.storyboard */; };
+		04929C6D23F3018900A77E34 /* PayfortTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04929C6C23F3018900A77E34 /* PayfortTestTests.swift */; };
+		04929C7823F3018900A77E34 /* PayfortTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04929C7723F3018900A77E34 /* PayfortTestUITests.swift */; };
+		04929C8823F301B200A77E34 /* PayFortSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04929C8523F301B200A77E34 /* PayFortSDK.framework */; };
+		04929C8923F301B200A77E34 /* PayFortSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04929C8723F301B200A77E34 /* PayFortSDK.bundle */; };
+		04929C8C23F301DB00A77E34 /* PayfortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04929C8A23F301DB00A77E34 /* PayfortService.swift */; };
+		04929C8D23F301DB00A77E34 /* PayfortApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04929C8B23F301DB00A77E34 /* PayfortApi.swift */; };
+		04929C8F23F301EB00A77E34 /* PayFortView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04929C8E23F301EB00A77E34 /* PayFortView2.xib */; };
+		B294F1014D08B57E18DFF278 /* Pods_PayfortTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE74A11F2E305AA2E0413E8 /* Pods_PayfortTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04929C6923F3018900A77E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04929C4A23F3018600A77E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04929C5123F3018600A77E34;
+			remoteInfo = PayfortTest;
+		};
+		04929C7423F3018900A77E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04929C4A23F3018600A77E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04929C5123F3018600A77E34;
+			remoteInfo = PayfortTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04929C5223F3018600A77E34 /* PayfortTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayfortTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04929C5523F3018600A77E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04929C5723F3018600A77E34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04929C5923F3018600A77E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04929C5C23F3018600A77E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04929C5E23F3018900A77E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04929C6123F3018900A77E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04929C6323F3018900A77E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04929C6823F3018900A77E34 /* PayfortTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayfortTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04929C6C23F3018900A77E34 /* PayfortTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayfortTestTests.swift; sourceTree = "<group>"; };
+		04929C6E23F3018900A77E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04929C7323F3018900A77E34 /* PayfortTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayfortTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04929C7723F3018900A77E34 /* PayfortTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayfortTestUITests.swift; sourceTree = "<group>"; };
+		04929C7923F3018900A77E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04929C8523F301B200A77E34 /* PayFortSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayFortSDK.framework; sourceTree = "<group>"; };
+		04929C8623F301B200A77E34 /* payforttest2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "payforttest2-Bridging-Header.h"; sourceTree = "<group>"; };
+		04929C8723F301B200A77E34 /* PayFortSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PayFortSDK.bundle; sourceTree = "<group>"; };
+		04929C8A23F301DB00A77E34 /* PayfortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayfortService.swift; sourceTree = "<group>"; };
+		04929C8B23F301DB00A77E34 /* PayfortApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayfortApi.swift; sourceTree = "<group>"; };
+		04929C8E23F301EB00A77E34 /* PayFortView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayFortView2.xib; sourceTree = "<group>"; };
+		30A6DBB766B41B33DC3C922F /* Pods-PayfortTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayfortTest.debug.xcconfig"; path = "Target Support Files/Pods-PayfortTest/Pods-PayfortTest.debug.xcconfig"; sourceTree = "<group>"; };
+		50E12D5B1DA6BF949821DEAB /* Pods-PayfortTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayfortTest.release.xcconfig"; path = "Target Support Files/Pods-PayfortTest/Pods-PayfortTest.release.xcconfig"; sourceTree = "<group>"; };
+		CEE74A11F2E305AA2E0413E8 /* Pods_PayfortTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayfortTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04929C4F23F3018600A77E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04929C8823F301B200A77E34 /* PayFortSDK.framework in Frameworks */,
+				B294F1014D08B57E18DFF278 /* Pods_PayfortTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04929C6523F3018900A77E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04929C7023F3018900A77E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04929C4923F3018600A77E34 = {
+			isa = PBXGroup;
+			children = (
+				04929C5423F3018600A77E34 /* PayfortTest */,
+				04929C6B23F3018900A77E34 /* PayfortTestTests */,
+				04929C7623F3018900A77E34 /* PayfortTestUITests */,
+				04929C5323F3018600A77E34 /* Products */,
+				CD459F1BC7DF09D70EBA4871 /* Pods */,
+				D489684B9EAB3E8ACCCB39CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04929C5323F3018600A77E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04929C5223F3018600A77E34 /* PayfortTest.app */,
+				04929C6823F3018900A77E34 /* PayfortTestTests.xctest */,
+				04929C7323F3018900A77E34 /* PayfortTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04929C5423F3018600A77E34 /* PayfortTest */ = {
+			isa = PBXGroup;
+			children = (
+				04929C5523F3018600A77E34 /* AppDelegate.swift */,
+				04929C5723F3018600A77E34 /* SceneDelegate.swift */,
+				04929C8723F301B200A77E34 /* PayFortSDK.bundle */,
+				04929C8523F301B200A77E34 /* PayFortSDK.framework */,
+				04929C8623F301B200A77E34 /* payforttest2-Bridging-Header.h */,
+				04929C5923F3018600A77E34 /* ViewController.swift */,
+				04929C8B23F301DB00A77E34 /* PayfortApi.swift */,
+				04929C8A23F301DB00A77E34 /* PayfortService.swift */,
+				04929C5B23F3018600A77E34 /* Main.storyboard */,
+				04929C5E23F3018900A77E34 /* Assets.xcassets */,
+				04929C8E23F301EB00A77E34 /* PayFortView2.xib */,
+				04929C6023F3018900A77E34 /* LaunchScreen.storyboard */,
+				04929C6323F3018900A77E34 /* Info.plist */,
+			);
+			path = PayfortTest;
+			sourceTree = "<group>";
+		};
+		04929C6B23F3018900A77E34 /* PayfortTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				04929C6C23F3018900A77E34 /* PayfortTestTests.swift */,
+				04929C6E23F3018900A77E34 /* Info.plist */,
+			);
+			path = PayfortTestTests;
+			sourceTree = "<group>";
+		};
+		04929C7623F3018900A77E34 /* PayfortTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04929C7723F3018900A77E34 /* PayfortTestUITests.swift */,
+				04929C7923F3018900A77E34 /* Info.plist */,
+			);
+			path = PayfortTestUITests;
+			sourceTree = "<group>";
+		};
+		CD459F1BC7DF09D70EBA4871 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30A6DBB766B41B33DC3C922F /* Pods-PayfortTest.debug.xcconfig */,
+				50E12D5B1DA6BF949821DEAB /* Pods-PayfortTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D489684B9EAB3E8ACCCB39CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE74A11F2E305AA2E0413E8 /* Pods_PayfortTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04929C5123F3018600A77E34 /* PayfortTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04929C7C23F3018900A77E34 /* Build configuration list for PBXNativeTarget "PayfortTest" */;
+			buildPhases = (
+				E9E34E11A5ABB6893077A3DA /* [CP] Check Pods Manifest.lock */,
+				04929C4E23F3018600A77E34 /* Sources */,
+				04929C4F23F3018600A77E34 /* Frameworks */,
+				04929C5023F3018600A77E34 /* Resources */,
+				BDC80975CABC4745524D82CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayfortTest;
+			productName = PayfortTest;
+			productReference = 04929C5223F3018600A77E34 /* PayfortTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04929C6723F3018900A77E34 /* PayfortTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04929C7F23F3018900A77E34 /* Build configuration list for PBXNativeTarget "PayfortTestTests" */;
+			buildPhases = (
+				04929C6423F3018900A77E34 /* Sources */,
+				04929C6523F3018900A77E34 /* Frameworks */,
+				04929C6623F3018900A77E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04929C6A23F3018900A77E34 /* PBXTargetDependency */,
+			);
+			name = PayfortTestTests;
+			productName = PayfortTestTests;
+			productReference = 04929C6823F3018900A77E34 /* PayfortTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04929C7223F3018900A77E34 /* PayfortTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04929C8223F3018900A77E34 /* Build configuration list for PBXNativeTarget "PayfortTestUITests" */;
+			buildPhases = (
+				04929C6F23F3018900A77E34 /* Sources */,
+				04929C7023F3018900A77E34 /* Frameworks */,
+				04929C7123F3018900A77E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04929C7523F3018900A77E34 /* PBXTargetDependency */,
+			);
+			name = PayfortTestUITests;
+			productName = PayfortTestUITests;
+			productReference = 04929C7323F3018900A77E34 /* PayfortTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04929C4A23F3018600A77E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Holo;
+				TargetAttributes = {
+					04929C5123F3018600A77E34 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					04929C6723F3018900A77E34 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 04929C5123F3018600A77E34;
+					};
+					04929C7223F3018900A77E34 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 04929C5123F3018600A77E34;
+					};
+				};
+			};
+			buildConfigurationList = 04929C4D23F3018600A77E34 /* Build configuration list for PBXProject "PayfortTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04929C4923F3018600A77E34;
+			productRefGroup = 04929C5323F3018600A77E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04929C5123F3018600A77E34 /* PayfortTest */,
+				04929C6723F3018900A77E34 /* PayfortTestTests */,
+				04929C7223F3018900A77E34 /* PayfortTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04929C5023F3018600A77E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04929C8F23F301EB00A77E34 /* PayFortView2.xib in Resources */,
+				04929C8923F301B200A77E34 /* PayFortSDK.bundle in Resources */,
+				04929C6223F3018900A77E34 /* LaunchScreen.storyboard in Resources */,
+				04929C5F23F3018900A77E34 /* Assets.xcassets in Resources */,
+				04929C5D23F3018600A77E34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04929C6623F3018900A77E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04929C7123F3018900A77E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDC80975CABC4745524D82CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayfortTest/Pods-PayfortTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayfortTest/Pods-PayfortTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayfortTest/Pods-PayfortTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E34E11A5ABB6893077A3DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayfortTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04929C4E23F3018600A77E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04929C5A23F3018600A77E34 /* ViewController.swift in Sources */,
+				04929C8C23F301DB00A77E34 /* PayfortService.swift in Sources */,
+				04929C8D23F301DB00A77E34 /* PayfortApi.swift in Sources */,
+				04929C5623F3018600A77E34 /* AppDelegate.swift in Sources */,
+				04929C5823F3018600A77E34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04929C6423F3018900A77E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04929C6D23F3018900A77E34 /* PayfortTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04929C6F23F3018900A77E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04929C7823F3018900A77E34 /* PayfortTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04929C6A23F3018900A77E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04929C5123F3018600A77E34 /* PayfortTest */;
+			targetProxy = 04929C6923F3018900A77E34 /* PBXContainerItemProxy */;
+		};
+		04929C7523F3018900A77E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04929C5123F3018600A77E34 /* PayfortTest */;
+			targetProxy = 04929C7423F3018900A77E34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04929C5B23F3018600A77E34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04929C5C23F3018600A77E34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04929C6023F3018900A77E34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04929C6123F3018900A77E34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04929C7A23F3018900A77E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04929C7B23F3018900A77E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04929C7D23F3018900A77E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A6DBB766B41B33DC3C922F /* Pods-PayfortTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEZL3QN42T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayfortTest",
+				);
+				INFOPLIST_FILE = PayfortTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"JVFloatLabeledTextField\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"Result\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayfortTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/Demos/PayfortTest/PayfortTest/payforttest2-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04929C7E23F3018900A77E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E12D5B1DA6BF949821DEAB /* Pods-PayfortTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEZL3QN42T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayfortTest",
+				);
+				INFOPLIST_FILE = PayfortTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"JVFloatLabeledTextField\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"Result\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayfortTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/Demos/PayfortTest/PayfortTest/payforttest2-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04929C8023F3018900A77E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayfortTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayfortTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayfortTest.app/PayfortTest";
+			};
+			name = Debug;
+		};
+		04929C8123F3018900A77E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayfortTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayfortTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayfortTest.app/PayfortTest";
+			};
+			name = Release;
+		};
+		04929C8323F3018900A77E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayfortTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayfortTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayfortTest;
+			};
+			name = Debug;
+		};
+		04929C8423F3018900A77E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayfortTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayfortTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayfortTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04929C4D23F3018600A77E34 /* Build configuration list for PBXProject "PayfortTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04929C7A23F3018900A77E34 /* Debug */,
+				04929C7B23F3018900A77E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04929C7C23F3018900A77E34 /* Build configuration list for PBXNativeTarget "PayfortTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04929C7D23F3018900A77E34 /* Debug */,
+				04929C7E23F3018900A77E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04929C7F23F3018900A77E34 /* Build configuration list for PBXNativeTarget "PayfortTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04929C8023F3018900A77E34 /* Debug */,
+				04929C8123F3018900A77E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04929C8223F3018900A77E34 /* Build configuration list for PBXNativeTarget "PayfortTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04929C8323F3018900A77E34 /* Debug */,
+				04929C8423F3018900A77E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04929C4A23F3018600A77E34 /* Project object */;
+}

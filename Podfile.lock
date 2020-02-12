@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.9.1)
+  - JVFloatLabeledTextField (1.2.2)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+
+DEPENDENCIES:
+  - JVFloatLabeledTextField
+  - Moya
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JVFloatLabeledTextField
+    - Moya
+    - Result
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: 72fca6dc15efe174b59d695ed9603f497f063db8
+
+COCOAPODS: 1.8.4
